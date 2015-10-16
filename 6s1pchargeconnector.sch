@@ -1,0 +1,208 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X02 P?
+U 1 1 5620653B
+P 5500 4950
+F 0 "P?" H 5500 5100 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 4950 50  0000 C CNN
+F 2 "" H 5500 4950 60  0000 C CNN
+F 3 "" H 5500 4950 60  0000 C CNN
+	1    5500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 562065CC
+P 5500 4350
+F 0 "P?" H 5500 4500 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 4350 50  0000 C CNN
+F 2 "" H 5500 4350 60  0000 C CNN
+F 3 "" H 5500 4350 60  0000 C CNN
+	1    5500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 562066AF
+P 5500 3750
+F 0 "P?" H 5500 3900 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 3750 50  0000 C CNN
+F 2 "" H 5500 3750 60  0000 C CNN
+F 3 "" H 5500 3750 60  0000 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 56206742
+P 5500 3150
+F 0 "P?" H 5500 3300 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 3150 50  0000 C CNN
+F 2 "" H 5500 3150 60  0000 C CNN
+F 3 "" H 5500 3150 60  0000 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 56206774
+P 5500 2550
+F 0 "P?" H 5500 2700 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 2550 50  0000 C CNN
+F 2 "" H 5500 2550 60  0000 C CNN
+F 3 "" H 5500 2550 60  0000 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 562067BB
+P 5500 1950
+F 0 "P?" H 5500 2100 50  0000 C CNN
+F 1 "CONN_01X02" V 5600 1950 50  0000 C CNN
+F 2 "" H 5500 1950 60  0000 C CNN
+F 3 "" H 5500 1950 60  0000 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5620680B
+P 3500 4350
+F 0 "P?" H 3500 4500 50  0000 C CNN
+F 1 "CONN_01X02" V 3600 4350 50  0000 C CNN
+F 2 "" H 3500 4350 60  0000 C CNN
+F 3 "" H 3500 4350 60  0000 C CNN
+	1    3500 4350
+	-1   0    0    1   
+$EndComp
+Text Notes 7000 6850 0    60   ~ 0
+Possible Connectors:\n7 Pin DIN: CP-3170-ND\n7 Pin Circular: 1124-1321-ND\n
+$Comp
+L CONN_01X07 P?
+U 1 1 56206AE4
+P 3500 3400
+F 0 "P?" H 3500 3800 50  0000 C CNN
+F 1 "CONN_01X07" V 3600 3400 50  0000 C CNN
+F 2 "" H 3500 3400 60  0000 C CNN
+F 3 "" H 3500 3400 60  0000 C CNN
+	1    3500 3400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 1900 3900 4300
+Wire Wire Line
+	3900 3100 3700 3100
+Wire Wire Line
+	3900 4300 3700 4300
+Connection ~ 3900 3100
+Wire Wire Line
+	3700 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 2500
+Wire Wire Line
+	4100 2500 5300 2500
+Wire Wire Line
+	5300 1900 3900 1900
+Wire Wire Line
+	3700 3300 4300 3300
+Wire Wire Line
+	4300 3300 4300 3100
+Wire Wire Line
+	4300 3100 5300 3100
+Wire Wire Line
+	3700 3400 4700 3400
+Wire Wire Line
+	3700 3500 4500 3500
+Wire Wire Line
+	5300 3700 4700 3700
+Wire Wire Line
+	4700 3700 4700 3400
+Wire Wire Line
+	5300 4300 4500 4300
+Wire Wire Line
+	4500 4300 4500 3500
+Wire Wire Line
+	5300 4900 4300 4900
+Wire Wire Line
+	4300 4900 4300 3600
+Wire Wire Line
+	4300 3600 3700 3600
+Wire Wire Line
+	5300 5000 4100 5000
+Wire Wire Line
+	4100 5000 4100 3700
+Wire Wire Line
+	4100 3700 3700 3700
+Wire Wire Line
+	3700 4400 4100 4400
+Connection ~ 4100 4400
+Wire Wire Line
+	5300 4400 5100 4400
+Wire Wire Line
+	5100 4400 5100 4900
+Connection ~ 5100 4900
+Wire Wire Line
+	5300 3800 5100 3800
+Wire Wire Line
+	5100 3800 5100 4300
+Connection ~ 5100 4300
+Wire Wire Line
+	5300 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 3700
+Connection ~ 5100 3700
+Wire Wire Line
+	5300 2600 5100 2600
+Wire Wire Line
+	5100 2600 5100 3100
+Connection ~ 5100 3100
+Wire Wire Line
+	5300 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2500
+Connection ~ 5100 2500
+$EndSCHEMATC
