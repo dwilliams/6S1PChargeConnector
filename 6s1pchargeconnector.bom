@@ -1,0 +1,9 @@
+Reference, Value, Footprint, Datasheet, Distributor, Part Num, Price
+P8,BATT 1,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P7,BATT 2,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P6,BATT 3,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P5,BATT 4,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P4,BATT 5,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P3,BATT 6,JST Connectors:JST-PH-2,,SparkFun,PRT-08612,0.95
+P2,OUT,Pin_Headers:Pin_Header_Straight_1x02,,SparkFun,PRT-10571,0.75
+P1,CHARGE,Connectors LEMO:ECG.0B.307,,DigiKey,1124-1321-ND,34.73

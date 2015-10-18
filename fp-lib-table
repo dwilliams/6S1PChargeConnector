@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "JST Connectors")(type KiCad)(uri ${KIPRJMOD}/JSTconnectors.pretty)(options "")(descr "JST type connectors"))
+  (lib (name "Connectors LEMO")(type KiCad)(uri ${KIPRJMOD}/LEMOconnectors.pretty)(options "")(descr "LEMO type connectors"))
 )
